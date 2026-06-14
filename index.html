@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Haven Hospital</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <style>
+        body{
+            font-family:'Poppins',sans-serif;
+        }
+
+.        html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+}
+        .hero-bg{
+            background:
+            linear-gradient(
+                rgba(15,76,129,.85),
+                rgba(15,76,129,.85)
+            ),
+            url('https://images.unsplash.com/photo-1576091160399-112ba8d25d1f');
+            background-size:cover;
+            background-position:center;
+        }
+    </style>
+</head>
+<body class="bg-slate-50">
+
+    <!-- NAVBAR -->
+ <nav class="fixed top-0 left-0 w-full z-50 bg-white/95 backdrop-blur-lg border-b border-slate-100">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+        <div class="flex items-center justify-between h-20">
+
+            <div class="flex items-center gap-3">
+
+                <div class="w-12 h-12 rounded-xl bg-blue-900 flex items-center justify-center">
+                    <i class="fa-solid fa-heart-pulse text-white"></i>
+                </div>
+
+                <div>
+                    <h1 class="font-bold text-blue-900 text-lg">
+                        New Haven
+                    </h1>
+
+                    <p class="text-xs text-gray-500">
+                        Hospital & Medical Center
+                    </p>
+                </div>
+
+            </div>
+
+            <ul class="hidden lg:flex gap-8 font-medium">
+
+                <li><a href="#home" class="hover:text-blue-900">Home</a></li>
+                <li><a href="#about" class="hover:text-blue-900">About</a></li>
+                <li><a href="#services" class="hover:text-blue-900">Services</a></li>
+                <li><a href="#doctors" class="hover:text-blue-900">Doctors</a></li>
+                <li><a href="#contact" class="hover:text-blue-900">Contact</a></li>
+
+            </ul>
+
+            <button class="hidden md:block bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-xl">
+                Book Appointment
+            </button>
+
+        </div>
+
+    </div>
+
+</nav>
+
+    <!-- HERO -->
+    <<section id="home"
+         class="hero-bg min-h-screen flex items-center pt-24">
+        <div class="max-w-7xl mx-auto px-6 text-white">
+
+            <span class="bg-green-500 px-4 py-2 rounded-full text-sm">
+                Trusted Healthcare Since 2010
+            </span>
+
+            <h1 class="text-5xl md:text-7xl font-extrabold mt-6 max-w-3xl">
+                Your Health Is Our Highest Priority
+            </h1>
+
+                Providing exceptional healthcare through experienced
+                doctors, modern technology and compassionate care.
+            </p>
+
+            <div class="flex gap-4 mt-8 flex-wrap">
+                <button class="bg-green-600 px-8 py-4 rounded-xl font-semibold">
+                    Book Appointment
+                </button>
+
+                <button class="border border-white px-8 py-4 rounded-xl">
+                    Learn More
+                </button>
+            </div>
+
+        </div>""
+
+    </section>
+<!-- STATISTICS -->
+<section class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+
+        <div class="grid md:grid-cols-4 gap-8 text-center">
+
+            <div>
+                <h2 class="text-5xl font-bold text-blue-900 counter" data-target="15">0</h2>
+                <p class="mt-2 text-gray-600">Years Experience</p>
+            </div>
+
+            <div>
+                <h2 class="text-5xl font-bold text-blue-900 counter" data-target="50">0</h2>
+                <p class="mt-2 text-gray-600">Specialist Doctors</p>
+            </div>
+
+            <div>
+                <h2 class="text-5xl font-bold text-blue-900 counter" data-target="10000">0</h2>
+                <p class="mt-2 text-gray-600">Patients Treated</p>
+            </div>
+
+            <div>
+                <h2 class="text-5xl font-bold text-blue-900">24/7</h2>
+                <p class="mt-2 text-gray-600">Emergency Support</p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section class="py-24 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-6">
+
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+
+            <div>
+                <img
+                    src="https://images.unsplash.com/photo-1584515933487-779824d29309"
+                    alt="Hospital"
+                    class="rounded-3xl shadow-xl w-full">
+            </div>
+
+            <div>
+
+                <span class="text-green-600 font-semibold uppercase">
+                    About Us
+                </span>
+
+                <h2 class="text-4xl font-bold text-blue-900 mt-3">
+                    Quality Healthcare With Compassion
+                </h2>
+
+                <p class="text-gray-600 mt-6 leading-relaxed">
+                    New Haven Hospital combines advanced medical technology
+                    with highly skilled healthcare professionals to deliver
+                    exceptional patient care.
+                </p>
+
+                <p class="text-gray-600 mt-4 leading-relaxed">
+                    Our mission is to improve lives through affordable,
+                    accessible and world class healthcare services.
+                </p>
+
+                <div class="grid grid-cols-2 gap-4 mt-8">
+
+                    <div class="bg-white p-5 rounded-xl shadow">
+                        <i class="fa-solid fa-user-doctor text-green-600 text-2xl"></i>
+                        <h3 class="font-semibold mt-3">Expert Doctors</h3>
+                    </div>
+
+                    <div class="bg-white p-5 rounded-xl shadow">
+                        <i class="fa-solid fa-hospital text-green-600 text-2xl"></i>
+                        <h3 class="font-semibold mt-3">Modern Facilities</h3>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section class="py-24 bg-white">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+        <div class="text-center mb-14">
+
+            <span class="text-green-600 font-semibold">
+                OUR SERVICES
+            </span>
+
+            <h2 class="text-4xl font-bold text-blue-900 mt-3">
+                Healthcare Services We Provide
+            </h2>
+
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+            <div class="bg-slate-50 p-8 rounded-2xl hover:shadow-xl transition">
+                <i class="fa-solid fa-heart-pulse text-green-600 text-4xl"></i>
+                <h3 class="font-semibold text-xl mt-5">Cardiology</h3>
+                <p class="text-gray-600 mt-3">
+                    Comprehensive heart care services.
+                </p>
+            </div>
+
+            <div class="bg-slate-50 p-8 rounded-2xl hover:shadow-xl transition">
+                <i class="fa-solid fa-child text-green-600 text-4xl"></i>
+                <h3 class="font-semibold text-xl mt-5">Pediatrics</h3>
+                <p class="text-gray-600 mt-3">
+                    Specialized healthcare for children.
+                </p>
+            </div>
+
+            <div class="bg-slate-50 p-8 rounded-2xl hover:shadow-xl transition">
+                <i class="fa-solid fa-truck-medical text-green-600 text-4xl"></i>
+                <h3 class="font-semibold text-xl mt-5">Emergency Care</h3>
+                <p class="text-gray-600 mt-3">
+                    Available 24 hours every day.
+                </p>
+            </div>
+
+            <div class="bg-slate-50 p-8 rounded-2xl hover:shadow-xl transition">
+                <i class="fa-solid fa-microscope text-green-600 text-4xl"></i>
+                <h3 class="font-semibold text-xl mt-5">Laboratory</h3>
+                <p class="text-gray-600 mt-3">
+                    Fast and accurate diagnostics.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- DOCTORS -->
+<section class="py-24 bg-slate-50">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+        <div class="text-center mb-14">
+
+            <h2 class="text-4xl font-bold text-blue-900">
+                Meet Our Specialists
+            </h2>
+
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+
+            <div class="bg-white rounded-2xl overflow-hidden shadow-lg">
+                <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2"
+                     class="h-72 w-full object-cover">
+                <div class="p-6">
+                    <h3 class="font-bold text-xl">Dr. Sarah Wilson</h3>
+                    <p class="text-green-600">Cardiologist</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl overflow-hidden shadow-lg">
+                <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d"
+                     class="h-72 w-full object-cover">
+                <div class="p-6">
+                    <h3 class="font-bold text-xl">Dr. Michael Brown</h3>
+                    <p class="text-green-600">Neurologist</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl overflow-hidden shadow-lg">
+                <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f"
+                     class="h-72 w-full object-cover">
+                <div class="p-6">
+                    <h3 class="font-bold text-xl">Dr. Emma Johnson</h3>
+                    <p class="text-green-600">Pediatrician</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer id="contact"
+        class="bg-blue-950 text-white py-12">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+        <div class="grid md:grid-cols-3 gap-10">
+
+            <div>
+
+                <h3 class="text-2xl font-bold">
+                    New Haven Hospital
+                </h3>
+
+                <p class="mt-4 text-slate-300">
+                    Delivering quality healthcare through compassion,
+                    innovation and excellence.
+                </p>
+
+            </div>
+
+            <div>
+
+                <h4 class="font-semibold text-lg">
+                    Quick Links
+                </h4>
+
+                <ul class="space-y-2 mt-4">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#doctors">Doctors</a></li>
+                </ul>
+
+            </div>
+
+            <div>
+
+                <h4 class="font-semibold text-lg">
+                    Contact
+                </h4>
+
+                <p class="mt-4">
+                    +234 800 000 0000
+                </p>
+
+                <p>
+                    info@newhavenhospital.com
+                </p>
+
+            </div>
+
+        </div>
+
+        <hr class="border-slate-700 my-8">
+
+        <p class="text-center text-slate-400">
+            © 2026 New Haven Hospital. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+<script>
+const counters = document.querySelectorAll(".counter");
+
+counters.forEach(counter => {
+    const updateCounter = () => {
+        const target = +counter.getAttribute("data-target");
+        const count = +counter.innerText;
+
+        const increment = target / 100;
+
+        if(count < target){
+            counter.innerText = Math.ceil(count + increment);
+            setTimeout(updateCounter,20);
+        } else {
+            counter.innerText = target >= 1000
+                ? (target/1000) + "K+"
+                : target + "+";
+        }
+    };
+
+    updateCounter();
+});
+</script>
+
+
+</body>
+</html>
